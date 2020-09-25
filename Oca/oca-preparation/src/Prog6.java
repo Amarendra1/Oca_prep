@@ -5,7 +5,7 @@ public class Prog6 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-List<> s1=new ArrayList<>();
+List<Integer> s1=new ArrayList<>();
 
 s1.add(5);
 s1.add(8);
@@ -15,3 +15,4 @@ s1.add(4);
 System.out.println(s1); 
 }
 }
+//[5, 6, 4]
