@@ -1,10 +1,9 @@
-public class Prog9 {
-public enum Days { MON, TUE, WED };
-public static void main(String[] args) {
-	for (Days d : Days.values());
-	Days[] d2 = Days.values();
-	System.out.println(d2[2]);
-}
-}
+String s1 = "abc";
+StringBuffer s2 = new StringBuffer(s1);
+System.out.println(s1.equals(s2));
+A. false
+B. true
+C. ClassCastException at runtime
+D. Compile-time error
 
-//WED
+//Correct Answer: A
