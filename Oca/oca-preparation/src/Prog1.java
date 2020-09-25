@@ -1,14 +1,9 @@
+String s = "Java String Quiz";
+System.out.println(s.substring(5,3));
 
-public class Prog1 {
+A. Prints “Str”
+B. Runtime Exception
+C. IndexOutOfBoundsException Runtime Exception
+D. StringIndexOutOfBoundsException Compile-time error
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-String s1=new String("Hello");
-String s2=new String ("Hello");
-System.out.println(s1==s2);
-System.out.println(s1.equals(s2));
-}
-}
-
-//false
-  true
+//Correct Answer: B
