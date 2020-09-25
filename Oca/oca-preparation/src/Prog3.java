@@ -1,18 +1,13 @@
-public class Prog3 {
+What will be the output of below statements?
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-String s1=new String("Gyana");
-String s2=new String("Gyana Das");
-System.out.println(s1);
-System.out.println(s1.length());  //determine the length of the string
-System.out.println(s2.length());
-System.out.println(s1.compareTo(s2));  //lexicographically compares between two strings
-	}
+String s1 = "Cat";
+String s2 = "Cat";
+String s3 = new String("Cat");
+System.out.print(s1 == s2);
+System.out.print(s1 == s3);
+A. truefalse
+B. truetrue
+C. falsefalse
+D. falsetrue
 
-}
-
-//Gyana
-5
-9
--4
+//Correct Answer: A
